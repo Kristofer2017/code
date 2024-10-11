@@ -1,0 +1,47 @@
+CRITICAL - 2024-10-10 04:43:55 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: curriculum/store]
+in APPPATH\Controllers\CurriculumController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CurriculumController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurriculumController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 04:44:38 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: curriculum/store]
+in APPPATH\Controllers\CurriculumController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CurriculumController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurriculumController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 04:46:57 --> ErrorException: Undefined variable $usuarioModel
+[Method: POST, Route: curriculum/store]
+in APPPATH\Controllers\CurriculumController.php on line 47.
+ 1 APPPATH\Controllers\CurriculumController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioModel', 'C:\\xampp\\htdocs\\code\\app\\Controllers\\CurriculumController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CurriculumController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurriculumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 04:51:16 --> ErrorException: Undefined variable $usuarioModel
+[Method: POST, Route: curriculum/store]
+in APPPATH\Controllers\CurriculumController.php on line 47.
+ 1 APPPATH\Controllers\CurriculumController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioModel', 'C:\\xampp\\htdocs\\code\\app\\Controllers\\CurriculumController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CurriculumController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurriculumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 06:16:57 --> ArgumentCountError: Too few arguments to function App\Controllers\CurriculumController::show(), 0 passed in C:\xampp\htdocs\code\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: curriculum/detalle]
+in APPPATH\Controllers\CurriculumController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CurriculumController->show()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CurriculumController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
